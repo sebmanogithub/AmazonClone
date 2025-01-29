@@ -8,5 +8,5 @@ Node.js
 ### nvm use 20.14.0
 ### npm install -g @angular/cli@17
 
-
+### ng new client
 
