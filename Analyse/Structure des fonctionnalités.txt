@@ -1,0 +1,94 @@
+Structure détaillée des fonctionnalités
+Modules Frontend
+
+Core Module
+
+AuthService
+TokenInterceptor
+ErrorInterceptor
+LoadingInterceptor
+ApiService
+
+
+Products Module
+
+ProductList
+ProductDetail
+ProductSearch
+ProductFilter
+ProductReviews
+
+
+Cart Module
+
+CartView
+CartItem
+CartSummary
+SaveForLater
+
+
+Checkout Module
+
+AddressForm
+PaymentForm
+OrderSummary
+OrderConfirmation
+
+
+User Module
+
+Profile
+Orders
+Addresses
+Wishlist
+Reviews
+
+
+Admin Module
+
+ProductManagement
+OrderManagement
+UserManagement
+Analytics
+
+
+
+Services Backend
+
+Controllers
+
+ProductsController
+OrdersController
+UsersController
+CartController
+AuthController
+AdminController
+
+
+Services
+
+ProductService
+OrderService
+UserService
+CartService
+PaymentService
+EmailService
+
+
+Repositories
+
+ProductRepository
+OrderRepository
+UserRepository
+CartRepository
+
+
+Models
+
+Product
+Order
+User
+Cart
+Address
+Payment
+Review

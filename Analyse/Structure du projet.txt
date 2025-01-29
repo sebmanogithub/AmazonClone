@@ -1,0 +1,39 @@
+Structure du Projet E-commerce
+Frontend (Angular)
+Copysrc/
+├── app/
+│   ├── core/                    # Services et guards singleton
+│   │   ├── auth/
+│   │   ├── interceptors/
+│   │   └── services/
+│   ├── shared/                  # Composants et services partagés
+│   │   ├── components/
+│   │   ├── directives/
+│   │   └── pipes/
+│   ├── features/               # Modules fonctionnels
+│   │   ├── products/
+│   │   ├── cart/
+│   │   ├── checkout/
+│   │   ├── user-profile/
+│   │   └── admin/
+│   └── layouts/                # Templates de mise en page
+├── assets/
+└── environments/
+
+Backend (C# / .NET)
+Copysrc/
+├── Amazon.Clone.API/           # Projet API
+│   ├── Controllers/ --> EndPoints exposés via HTTP
+│   ├── Middleware/
+│   └── Program.cs
+├── Amazon.Clone.Core/          # Logique métier / Domain et Application Logic
+│   ├── Interfaces/
+│   ├── Services/
+│   ***└── Models/****
+|   └── Entities/
+|   └── DTOs/
+├── Amazon.Clone.Infrastructure/  # Accès aux données
+│   ├── Data/
+│   ├── Repositories/
+│   └── Extensions/
+└── Amazon.Clone.Tests/          # Tests unitaires et d'intégration
