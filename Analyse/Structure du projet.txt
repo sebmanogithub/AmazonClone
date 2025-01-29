@@ -37,3 +37,18 @@ Copysrc/
 │   ├── Repositories/
 │   └── Extensions/
 └── Amazon.Clone.Tests/          # Tests unitaires et d'intégration
+
+server/
+├── Amazon.Clone.API/           
+├── Amazon.Clone.Core/         
+├── Amazon.Clone.Infrastructure/ 
+└── Amazon.Clone.Tests/       
+
+
+/
+├── server/
+    ├── Amazon.Clone.API/           
+    ├── Amazon.Clone.Core/         
+    ├── Amazon.Clone.Infrastructure/ 
+    └── Amazon.Clone.Tests/
+└── client/
