@@ -1,0 +1,16 @@
+E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\bin\Debug\net8.0\Amazon.Clone.Infrastructure.deps.json
+E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\bin\Debug\net8.0\Amazon.Clone.Infrastructure.dll
+E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\bin\Debug\net8.0\Amazon.Clone.Infrastructure.pdb
+E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\bin\Debug\net8.0\Amazon.Clone.Core.dll
+E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\bin\Debug\net8.0\Amazon.Clone.Core.pdb
+E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\obj\Debug\net8.0\Amazon.Clone.Infrastructure.csproj.AssemblyReference.cache
+E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\obj\Debug\net8.0\Amazon.Clone.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\obj\Debug\net8.0\Amazon.Clone.Infrastructure.AssemblyInfoInputs.cache
+E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\obj\Debug\net8.0\Amazon.Clone.Infrastructure.AssemblyInfo.cs
+E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\obj\Debug\net8.0\Amazon.Clone.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\obj\Debug\net8.0\Amazon.Clone.Infrastructure.sourcelink.json
+E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\obj\Debug\net8.0\Amazon.C.C8577308.Up2Date
+E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\obj\Debug\net8.0\Amazon.Clone.Infrastructure.dll
+E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\obj\Debug\net8.0\refint\Amazon.Clone.Infrastructure.dll
+E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\obj\Debug\net8.0\Amazon.Clone.Infrastructure.pdb
+E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\obj\Debug\net8.0\ref\Amazon.Clone.Infrastructure.dll

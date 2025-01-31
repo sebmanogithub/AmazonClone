@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projets\\Myapp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj": {}
+    "E:\\Projets\\MyApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj": {}
   },
   "projects": {
-    "E:\\Projets\\Myapp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj": {
+    "E:\\Projets\\MyApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projets\\Myapp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj",
+        "projectUniqueName": "E:\\Projets\\MyApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj",
         "projectName": "Amazon.Clone.Core",
-        "projectPath": "E:\\Projets\\Myapp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj",
+        "projectPath": "E:\\Projets\\MyApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj",
         "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
-        "outputPath": "E:\\Projets\\Myapp\\server\\Amazon.Clone.Core\\obj\\",
+        "outputPath": "E:\\Projets\\MyApp\\server\\Amazon.Clone.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config"

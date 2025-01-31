@@ -1,10 +1,32 @@
 # .NET
  ```
+ dotnet --info
+ dotnet -h
+ dotnet new -h
  dotnet --list-sdks    
  dotnet --version    
+ dotnet new webapi -o API -f net5.0
  dotnet new globaljson --sdk-version 5.0.408  
  dotnet list Amazon.Clone.Tests/Amazon.Clone.Tests.csproj reference
+ 
+ dotnet new gitignore
+ 
+ dotnet dev-certs https --trust
+ dotnet run
+ dotnet watch run
  ```
+ 
+ # Entity Framework
+```
+dotnet add package Microsoft.EntityFrameworkCore --version 5.0.17
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 5.0.17
+dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 5.0.17
+
+dotnet tool install --global dotnet-ef --version 5.0.17
+dotnet ef migrations add InitialCreate -o Data/Migrations
+dotnet ef database update
+
+```
  
 
 # Création du projet

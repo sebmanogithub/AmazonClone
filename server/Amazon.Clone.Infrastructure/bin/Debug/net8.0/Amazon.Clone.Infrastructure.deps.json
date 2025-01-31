@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Amazon.Clone.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Amazon.Clone.Core": "1.0.0"
+        },
+        "runtime": {
+          "Amazon.Clone.Infrastructure.dll": {}
+        }
+      },
+      "Amazon.Clone.Core/1.0.0": {
+        "runtime": {
+          "Amazon.Clone.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Amazon.Clone.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Clone.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

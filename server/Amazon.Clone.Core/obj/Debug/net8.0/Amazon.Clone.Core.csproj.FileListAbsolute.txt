@@ -1,0 +1,12 @@
+E:\Projets\MyApp\server\Amazon.Clone.Core\bin\Debug\net8.0\Amazon.Clone.Core.deps.json
+E:\Projets\MyApp\server\Amazon.Clone.Core\bin\Debug\net8.0\Amazon.Clone.Core.dll
+E:\Projets\MyApp\server\Amazon.Clone.Core\bin\Debug\net8.0\Amazon.Clone.Core.pdb
+E:\Projets\MyApp\server\Amazon.Clone.Core\obj\Debug\net8.0\Amazon.Clone.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projets\MyApp\server\Amazon.Clone.Core\obj\Debug\net8.0\Amazon.Clone.Core.AssemblyInfoInputs.cache
+E:\Projets\MyApp\server\Amazon.Clone.Core\obj\Debug\net8.0\Amazon.Clone.Core.AssemblyInfo.cs
+E:\Projets\MyApp\server\Amazon.Clone.Core\obj\Debug\net8.0\Amazon.Clone.Core.csproj.CoreCompileInputs.cache
+E:\Projets\MyApp\server\Amazon.Clone.Core\obj\Debug\net8.0\Amazon.Clone.Core.sourcelink.json
+E:\Projets\MyApp\server\Amazon.Clone.Core\obj\Debug\net8.0\Amazon.Clone.Core.dll
+E:\Projets\MyApp\server\Amazon.Clone.Core\obj\Debug\net8.0\refint\Amazon.Clone.Core.dll
+E:\Projets\MyApp\server\Amazon.Clone.Core\obj\Debug\net8.0\Amazon.Clone.Core.pdb
+E:\Projets\MyApp\server\Amazon.Clone.Core\obj\Debug\net8.0\ref\Amazon.Clone.Core.dll

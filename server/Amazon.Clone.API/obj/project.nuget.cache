@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TGBss654+GU=",
+  "dgSpecHash": "By+l/Mdou7A=",
   "success": true,
-  "projectFilePath": "E:\\Projets\\Myapp\\server\\Amazon.Clone.API\\Amazon.Clone.API.csproj",
+  "projectFilePath": "E:\\Projets\\MyApp\\server\\Amazon.Clone.API\\Amazon.Clone.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sebas\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.12\\microsoft.aspnetcore.openapi.8.0.12.nupkg.sha512",
     "C:\\Users\\sebas\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
