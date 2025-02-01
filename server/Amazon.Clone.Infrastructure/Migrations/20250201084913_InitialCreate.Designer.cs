@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Amazon.Clone.Infrastructure.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20250201073227_InitialCreate")]
+    [Migration("20250201084913_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -22,9 +22,9 @@ namespace Amazon.Clone.Infrastructure.Migrations
 
             modelBuilder.Entity("Amazon.Clone.Core.Entities.AppUser", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("TEXT");

@@ -19,9 +19,9 @@ namespace Amazon.Clone.Infrastructure.Migrations
 
             modelBuilder.Entity("Amazon.Clone.Core.Entities.AppUser", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("TEXT");
