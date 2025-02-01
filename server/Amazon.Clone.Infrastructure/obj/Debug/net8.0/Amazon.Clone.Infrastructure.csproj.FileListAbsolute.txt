@@ -14,3 +14,5 @@ E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\obj\Debug\net8.0\Amazon.Clon
 E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\obj\Debug\net8.0\refint\Amazon.Clone.Infrastructure.dll
 E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\obj\Debug\net8.0\Amazon.Clone.Infrastructure.pdb
 E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\obj\Debug\net8.0\ref\Amazon.Clone.Infrastructure.dll
+E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\bin\Debug\net8.0\Amazon.Clone.Infrastructure.runtimeconfig.json
+E:\Projets\MyApp\server\Amazon.Clone.Infrastructure\obj\Debug\net8.0\Amazon.Clone.Infrastructure.genruntimeconfig.cache

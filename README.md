@@ -18,10 +18,13 @@ des responsabilités.
 Tests de la logique métier (Core) et de l'API (API)     
 → Tests unitaires et d'intégration    
 
-### Choix de la base de données
+### *Choix de la base de données*
 
 Dans un premier temps, je vais utiliser **SQLite** afin de faciliter la mise en place des Tests d'intégrations.
-Puis, je passerais à PostGreSql en Docker pour les tests d'intégration avancés et la mise en prod.
+Puis, je passerais à PostGreSql en Docker pour les tests d'intégration avancés et la mise en prod.     
+<u>Contraintes :</u> 
+- Utilisation de GUID au lieu d’INT pour les IDs (compatible SQLite/Postgre).
+
 
 
 

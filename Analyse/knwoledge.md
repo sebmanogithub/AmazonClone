@@ -26,6 +26,17 @@ dotnet tool install --global dotnet-ef --version 5.0.17
 dotnet ef migrations add InitialCreate -o Data/Migrations
 dotnet ef database update
 
+Projet AmazonClone
+
+dotnet add Amazon.Clone.Infrastructure/Amazon.Clone.Infrastructure.csproj package Microsoft.EntityFrameworkCore
+dotnet add Amazon.Clone.Infrastructure/Amazon.Clone.Infrastructure.csproj package Microsoft.EntityFrameworkCore.Sqlite
+dotnet add Amazon.Clone.Infrastructure/Amazon.Clone.Infrastructure.csproj package Microsoft.EntityFrameworkCore.Design
+
+dotnet add Amazon.Clone.API/Amazon.Clone.API.csproj package Microsoft.EntityFrameworkCore.Design
+
+dotnet tool install --global dotnet-ef
+dotnet ef migrations add InitialCreate --project Amazon.Clone.Infrastructure --startup-project Amazon.Clone.API
+dotnet ef database update --project Amazon.Clone.Infrastructure --startup-project Amazon.Clone.API
 ```
  
 
