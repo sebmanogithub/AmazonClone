@@ -7264,11 +7264,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projets\\MyApp\\server\\Amazon.Clone.Tests\\Amazon.Clone.Tests.csproj",
+      "projectUniqueName": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Tests\\Amazon.Clone.Tests.csproj",
       "projectName": "Amazon.Clone.Tests",
-      "projectPath": "E:\\Projets\\MyApp\\server\\Amazon.Clone.Tests\\Amazon.Clone.Tests.csproj",
+      "projectPath": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Tests\\Amazon.Clone.Tests.csproj",
       "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
-      "outputPath": "E:\\Projets\\MyApp\\server\\Amazon.Clone.Tests\\obj\\",
+      "outputPath": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7283,14 +7283,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Projets\\MyApp\\server\\Amazon.Clone.API\\Amazon.Clone.API.csproj": {
-              "projectPath": "E:\\Projets\\MyApp\\server\\Amazon.Clone.API\\Amazon.Clone.API.csproj"
+            "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.API\\Amazon.Clone.API.csproj": {
+              "projectPath": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.API\\Amazon.Clone.API.csproj"
             },
-            "E:\\Projets\\MyApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj": {
-              "projectPath": "E:\\Projets\\MyApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj"
+            "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj": {
+              "projectPath": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj"
             },
-            "E:\\Projets\\MyApp\\server\\Amazon.Clone.Infrastructure\\Amazon.Clone.Infrastructure.csproj": {
-              "projectPath": "E:\\Projets\\MyApp\\server\\Amazon.Clone.Infrastructure\\Amazon.Clone.Infrastructure.csproj"
+            "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Infrastructure\\Amazon.Clone.Infrastructure.csproj": {
+              "projectPath": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Infrastructure\\Amazon.Clone.Infrastructure.csproj"
             }
           }
         }

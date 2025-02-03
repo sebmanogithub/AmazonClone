@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oBcHEEzbRWg=",
+  "dgSpecHash": "JeTSEnljY98=",
   "success": true,
-  "projectFilePath": "E:\\Projets\\MyApp\\server\\Amazon.Clone.API\\Amazon.Clone.API.csproj",
+  "projectFilePath": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.API\\Amazon.Clone.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sebas\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\sebas\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.12\\microsoft.aspnetcore.openapi.8.0.12.nupkg.sha512",

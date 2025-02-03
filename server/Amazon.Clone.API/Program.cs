@@ -1,3 +1,5 @@
+using Amazon.Clone.Core.Interfaces;
+using Amazon.Clone.Core.Services;
 using Amazon.Clone.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -6,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddDbContext<DataContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<IPasswordHashingService, PasswordHashingService>();
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -24,14 +27,6 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
-
-// Seed de données de test
-using (IServiceScope scope = app.Services.CreateScope())
-{
-    DataContext context = scope.ServiceProvider.GetRequiredService<DataContext>();
-    await context.Database.EnsureCreatedAsync();
-    await context.SeedTestData();
-}
 
 app.Run();
 

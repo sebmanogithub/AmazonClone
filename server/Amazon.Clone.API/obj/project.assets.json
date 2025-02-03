@@ -3710,11 +3710,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projets\\MyApp\\server\\Amazon.Clone.API\\Amazon.Clone.API.csproj",
+      "projectUniqueName": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.API\\Amazon.Clone.API.csproj",
       "projectName": "Amazon.Clone.API",
-      "projectPath": "E:\\Projets\\MyApp\\server\\Amazon.Clone.API\\Amazon.Clone.API.csproj",
+      "projectPath": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.API\\Amazon.Clone.API.csproj",
       "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
-      "outputPath": "E:\\Projets\\MyApp\\server\\Amazon.Clone.API\\obj\\",
+      "outputPath": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3729,11 +3729,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Projets\\MyApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj": {
-              "projectPath": "E:\\Projets\\MyApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj"
+            "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj": {
+              "projectPath": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj"
             },
-            "E:\\Projets\\MyApp\\server\\Amazon.Clone.Infrastructure\\Amazon.Clone.Infrastructure.csproj": {
-              "projectPath": "E:\\Projets\\MyApp\\server\\Amazon.Clone.Infrastructure\\Amazon.Clone.Infrastructure.csproj"
+            "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Infrastructure\\Amazon.Clone.Infrastructure.csproj": {
+              "projectPath": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Infrastructure\\Amazon.Clone.Infrastructure.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projets\\MyApp\\server\\Amazon.Clone.Infrastructure\\Amazon.Clone.Infrastructure.csproj": {}
+    "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Infrastructure\\Amazon.Clone.Infrastructure.csproj": {}
   },
   "projects": {
-    "E:\\Projets\\MyApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj": {
+    "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projets\\MyApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj",
+        "projectUniqueName": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj",
         "projectName": "Amazon.Clone.Core",
-        "projectPath": "E:\\Projets\\MyApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj",
+        "projectPath": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj",
         "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
-        "outputPath": "E:\\Projets\\MyApp\\server\\Amazon.Clone.Core\\obj\\",
+        "outputPath": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "E:\\Projets\\MyApp\\server\\Amazon.Clone.Infrastructure\\Amazon.Clone.Infrastructure.csproj": {
+    "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Infrastructure\\Amazon.Clone.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projets\\MyApp\\server\\Amazon.Clone.Infrastructure\\Amazon.Clone.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Infrastructure\\Amazon.Clone.Infrastructure.csproj",
         "projectName": "Amazon.Clone.Infrastructure",
-        "projectPath": "E:\\Projets\\MyApp\\server\\Amazon.Clone.Infrastructure\\Amazon.Clone.Infrastructure.csproj",
+        "projectPath": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Infrastructure\\Amazon.Clone.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
-        "outputPath": "E:\\Projets\\MyApp\\server\\Amazon.Clone.Infrastructure\\obj\\",
+        "outputPath": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -84,8 +84,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Projets\\MyApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj": {
-                "projectPath": "E:\\Projets\\MyApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj"
+              "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj": {
+                "projectPath": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Core\\Amazon.Clone.Core.csproj"
               }
             }
           }

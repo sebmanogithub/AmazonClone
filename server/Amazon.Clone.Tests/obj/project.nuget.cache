@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7GuJSnLRx9k=",
+  "dgSpecHash": "3Z+JYK4fCTA=",
   "success": true,
-  "projectFilePath": "E:\\Projets\\MyApp\\server\\Amazon.Clone.Tests\\Amazon.Clone.Tests.csproj",
+  "projectFilePath": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.Tests\\Amazon.Clone.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sebas\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\sebas\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.12\\microsoft.aspnetcore.openapi.8.0.12.nupkg.sha512",

@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Amazon.Clone.Infrastructure.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20250201084913_InitialCreate")]
+    [Migration("20250203152512_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -29,10 +29,19 @@ namespace Amazon.Clone.Infrastructure.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("TEXT");
 
+                    b.Property<byte[]>("PasswordHash")
+                        .IsRequired()
+                        .HasColumnType("BLOB");
+
+                    b.Property<byte[]>("PasswordSalt")
+                        .IsRequired()
+                        .HasColumnType("BLOB");
+
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("UserName")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
