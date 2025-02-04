@@ -37,8 +37,13 @@ dotnet add Amazon.Clone.API/Amazon.Clone.API.csproj package Microsoft.EntityFram
 dotnet tool install --global dotnet-ef
 dotnet ef migrations add InitialCreate --project Amazon.Clone.Infrastructure --startup-project Amazon.Clone.API
 dotnet ef database update --project Amazon.Clone.Infrastructure --startup-project Amazon.Clone.API
+
+dotnet ef database drop --project Amazon.Clone.Infrastructure --startup-project Amazon.Clone.API -f
+
 ```
- 
+
+dotnet ef migrations add InitialCreate ...
+dotnet ef database update ....
 
 # Création du projet
 ```
@@ -79,12 +84,25 @@ node -v
 nvm list    
 nvm install 18.19.1    
 nvm use 20.14.0    
-npm install -g @angular/cli@17   
+nvm use 16.13.2    
 ``` 
 
 # Angular 
 ```
-ng new client
+npx @angular/cli@12.2.18 new mon-projet //Installation en local
+npx @angular/cli@18 new gameotheque //Installation en local
+
+ng new client --strict false
+
+Bonnes pratiques en entreprise : Structuration telle quelle
+Créé d'abord un workspace 
+ng new gameotheque-workspace --create-application=false
+Puis 
+ng g app gameotheque
+ou
+ng g lib ...
+
+On peut rajouter par la suite des projets de type librairie que l'on pourra connecter par la suite avec l'app ng
 ```
 
 # Docker

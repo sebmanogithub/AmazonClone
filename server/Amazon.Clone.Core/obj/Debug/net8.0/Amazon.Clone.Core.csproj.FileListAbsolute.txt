@@ -22,3 +22,4 @@ D:\Projets\AmazonApp\server\Amazon.Clone.Core\obj\Debug\net8.0\Amazon.Clone.Core
 D:\Projets\AmazonApp\server\Amazon.Clone.Core\obj\Debug\net8.0\refint\Amazon.Clone.Core.dll
 D:\Projets\AmazonApp\server\Amazon.Clone.Core\obj\Debug\net8.0\Amazon.Clone.Core.pdb
 D:\Projets\AmazonApp\server\Amazon.Clone.Core\obj\Debug\net8.0\ref\Amazon.Clone.Core.dll
+D:\Projets\AmazonApp\server\Amazon.Clone.Core\obj\Debug\net8.0\Amazon.Clone.Core.csproj.AssemblyReference.cache

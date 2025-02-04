@@ -326,3 +326,8 @@ D:\Projets\AmazonApp\server\Amazon.Clone.API\obj\Debug\net8.0\refint\Amazon.Clon
 D:\Projets\AmazonApp\server\Amazon.Clone.API\obj\Debug\net8.0\Amazon.Clone.API.pdb
 D:\Projets\AmazonApp\server\Amazon.Clone.API\obj\Debug\net8.0\Amazon.Clone.API.genruntimeconfig.cache
 D:\Projets\AmazonApp\server\Amazon.Clone.API\obj\Debug\net8.0\ref\Amazon.Clone.API.dll
+D:\Projets\AmazonApp\server\amazon.clone.api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Projets\AmazonApp\server\amazon.clone.api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projets\AmazonApp\server\amazon.clone.api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Projets\AmazonApp\server\amazon.clone.api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Projets\AmazonApp\server\amazon.clone.api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

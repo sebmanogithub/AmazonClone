@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.API\\Amazon.Clone.API.csproj": {}
+    "D:\\Projets\\AmazonApp\\server\\amazon.clone.api\\Amazon.Clone.API.csproj": {}
   },
   "projects": {
-    "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.API\\Amazon.Clone.API.csproj": {
+    "D:\\Projets\\AmazonApp\\server\\amazon.clone.api\\Amazon.Clone.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.API\\Amazon.Clone.API.csproj",
+        "projectUniqueName": "D:\\Projets\\AmazonApp\\server\\amazon.clone.api\\Amazon.Clone.API.csproj",
         "projectName": "Amazon.Clone.API",
-        "projectPath": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.API\\Amazon.Clone.API.csproj",
+        "projectPath": "D:\\Projets\\AmazonApp\\server\\amazon.clone.api\\Amazon.Clone.API.csproj",
         "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
-        "outputPath": "D:\\Projets\\AmazonApp\\server\\Amazon.Clone.API\\obj\\",
+        "outputPath": "D:\\Projets\\AmazonApp\\server\\amazon.clone.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -63,6 +63,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             }
           },
           "imports": [
@@ -126,6 +130,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

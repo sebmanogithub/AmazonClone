@@ -3,6 +3,7 @@ using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
+using Amazon.Clone.API.DTOs;
 using Amazon.Clone.Core.Entities;
 using Amazon.Clone.Core.Interfaces;
 using Amazon.Clone.Infrastructure.Data;
@@ -15,15 +16,18 @@ namespace API.Controllers
     public class AccountController : BaseApiController
     {
         private readonly DataContext _context;
-         private readonly IPasswordHashingService _passwordHashingService;
-        public AccountController(DataContext context, IPasswordHashingService passwordHashingService)
+        private readonly IPasswordHashingService _passwordHashingService;
+        private readonly ITokenService _tokenService;
+        public AccountController(DataContext context, IPasswordHashingService passwordHashingService,
+        ITokenService tokenService)
         {
             _context = context;
             _passwordHashingService = passwordHashingService;
+            _tokenService = tokenService;
         }
 
         [HttpPost("register")]
-        public async Task<ActionResult<AppUser>> Register(RegisterDto registerDto)
+        public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto)
         {
             if (await UserExists(registerDto.Username))
             {
@@ -42,11 +46,15 @@ namespace API.Controllers
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
-            return user;
+            return new UserDto
+            {
+                Username = user.UserName,
+                Token = _tokenService.CreateToken(user.UserName)
+            };
         }
 
         [HttpPost("login")]
-        public async Task<ActionResult<AppUser>> Login(LoginDto loginDto)
+        public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
         {
             AppUser? user = await _context.Users.SingleOrDefaultAsync(x => x.UserName == loginDto.Username);
             
@@ -60,7 +68,11 @@ namespace API.Controllers
                 return Unauthorized("Invalid Password");
             }
 
-            return user;
+            return new UserDto 
+            {
+                Username = user.UserName,
+                Token = _tokenService.CreateToken(user.UserName)
+            };
         }
 
         private async Task<bool> UserExists(string UserName)
